@@ -1,0 +1,8 @@
+#ifndef MIRYOKU_CONFIG_H
+#define MIRYOKU_CONFIG_H
+
+#define MIRYOKU_MAPPING_SPLIT_3X5_3
+
+#define MIRYOKU_ALPHAS_QWERTY
+
+#endif

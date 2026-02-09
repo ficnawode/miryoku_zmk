@@ -1,0 +1,9 @@
+name: 'Skeletyl with nice_nano'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["skeletyl_right","skeletyl_left", "skeletyl_dongle"]'

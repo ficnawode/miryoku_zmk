@@ -21,6 +21,5 @@
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row"; // Change to row2col if needed
     };
 };
